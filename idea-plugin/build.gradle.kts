@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.14.2"
+    id("org.jetbrains.intellij") version "1.17.1"
 }
 
 group = "com.itangcent"
@@ -108,7 +108,7 @@ intellij {
     type.set("IC")
     pluginName.set("easy-yapi")
     sandboxDir.set("idea-sandbox")
-    plugins.set(listOf("java"))
+    plugins.set(listOf("java", "maven", "gradle"))
 }
 
 tasks {
